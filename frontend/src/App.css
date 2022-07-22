@@ -1,0 +1,15 @@
+.app {
+  font-family: var(--font);
+  background-color: var(--darker-blue);
+  height: 100vh;
+  overflow: auto;
+}
+
+.container {
+  width: 50%;
+  height: 70%;
+  margin: 0 auto;
+  margin-top: 80px;
+  min-width: 400px;
+}
+

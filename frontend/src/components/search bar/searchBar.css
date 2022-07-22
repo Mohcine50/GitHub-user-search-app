@@ -1,0 +1,50 @@
+.searchBar {
+  background-color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  height: 45px;
+  margin-top: 15px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  gap: 5px;
+  font-family: var(--font);
+  -webkit-box-shadow: 0px 1px 11px -1px rgba(0, 0, 0, 0.32);
+  box-shadow: 0px 1px 11px -1px rgba(0, 0, 0, 0.32);
+}
+
+.searchBar form {
+  background-color: inherit;
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  height: 90%;
+}
+.searchBar form > input {
+  font-family: var(--font);
+  background: inherit;
+  border: none;
+  height: 100%;
+  color: var(--gray);
+  font-size: 16px;
+  font-weight: 500;
+  flex: 7 1 0;
+}
+.searchBar form > input::placeholder {
+  color: var(--gray);
+  opacity: 1;
+  font-family: var(--font);
+}
+.searchBar form > input:focus {
+  outline: none;
+}
+.searchBar form > button {
+  flex: 2 1 0;
+  font-family: var(--font);
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: var(--lighter-blue);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
